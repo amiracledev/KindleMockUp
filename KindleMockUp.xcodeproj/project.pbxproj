@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF0F067221159365005FD776 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F067121159365005FD776 /* AppDelegate.swift */; };
+		CF0F067421159365005FD776 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F067321159365005FD776 /* ViewController.swift */; };
+		CF0F067721159366005FD776 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF0F067521159366005FD776 /* Main.storyboard */; };
+		CF0F067921159367005FD776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF0F067821159367005FD776 /* Assets.xcassets */; };
+		CF0F067C21159367005FD776 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF0F067A21159367005FD776 /* LaunchScreen.storyboard */; };
+		CF0F068721159368005FD776 /* KindleMockUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F068621159368005FD776 /* KindleMockUpTests.swift */; };
+		CF0F069221159368005FD776 /* KindleMockUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F069121159368005FD776 /* KindleMockUpUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF0F068321159368005FD776 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF0F066621159365005FD776 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF0F066D21159365005FD776;
+			remoteInfo = KindleMockUp;
+		};
+		CF0F068E21159368005FD776 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF0F066621159365005FD776 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF0F066D21159365005FD776;
+			remoteInfo = KindleMockUp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF0F066E21159365005FD776 /* KindleMockUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KindleMockUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF0F067121159365005FD776 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF0F067321159365005FD776 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF0F067621159366005FD776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF0F067821159367005FD776 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF0F067B21159367005FD776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF0F067D21159367005FD776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF0F068221159368005FD776 /* KindleMockUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KindleMockUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF0F068621159368005FD776 /* KindleMockUpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KindleMockUpTests.swift; sourceTree = "<group>"; };
+		CF0F068821159368005FD776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF0F068D21159368005FD776 /* KindleMockUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KindleMockUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF0F069121159368005FD776 /* KindleMockUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KindleMockUpUITests.swift; sourceTree = "<group>"; };
+		CF0F069321159368005FD776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF0F066B21159365005FD776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF0F067F21159368005FD776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF0F068A21159368005FD776 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF0F066521159365005FD776 = {
+			isa = PBXGroup;
+			children = (
+				CF0F067021159365005FD776 /* KindleMockUp */,
+				CF0F068521159368005FD776 /* KindleMockUpTests */,
+				CF0F069021159368005FD776 /* KindleMockUpUITests */,
+				CF0F066F21159365005FD776 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF0F066F21159365005FD776 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF0F066E21159365005FD776 /* KindleMockUp.app */,
+				CF0F068221159368005FD776 /* KindleMockUpTests.xctest */,
+				CF0F068D21159368005FD776 /* KindleMockUpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF0F067021159365005FD776 /* KindleMockUp */ = {
+			isa = PBXGroup;
+			children = (
+				CF0F067121159365005FD776 /* AppDelegate.swift */,
+				CF0F067321159365005FD776 /* ViewController.swift */,
+				CF0F067521159366005FD776 /* Main.storyboard */,
+				CF0F067821159367005FD776 /* Assets.xcassets */,
+				CF0F067A21159367005FD776 /* LaunchScreen.storyboard */,
+				CF0F067D21159367005FD776 /* Info.plist */,
+			);
+			path = KindleMockUp;
+			sourceTree = "<group>";
+		};
+		CF0F068521159368005FD776 /* KindleMockUpTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF0F068621159368005FD776 /* KindleMockUpTests.swift */,
+				CF0F068821159368005FD776 /* Info.plist */,
+			);
+			path = KindleMockUpTests;
+			sourceTree = "<group>";
+		};
+		CF0F069021159368005FD776 /* KindleMockUpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF0F069121159368005FD776 /* KindleMockUpUITests.swift */,
+				CF0F069321159368005FD776 /* Info.plist */,
+			);
+			path = KindleMockUpUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF0F066D21159365005FD776 /* KindleMockUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF0F069621159368005FD776 /* Build configuration list for PBXNativeTarget "KindleMockUp" */;
+			buildPhases = (
+				CF0F066A21159365005FD776 /* Sources */,
+				CF0F066B21159365005FD776 /* Frameworks */,
+				CF0F066C21159365005FD776 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KindleMockUp;
+			productName = KindleMockUp;
+			productReference = CF0F066E21159365005FD776 /* KindleMockUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF0F068121159368005FD776 /* KindleMockUpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF0F069921159368005FD776 /* Build configuration list for PBXNativeTarget "KindleMockUpTests" */;
+			buildPhases = (
+				CF0F067E21159368005FD776 /* Sources */,
+				CF0F067F21159368005FD776 /* Frameworks */,
+				CF0F068021159368005FD776 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF0F068421159368005FD776 /* PBXTargetDependency */,
+			);
+			name = KindleMockUpTests;
+			productName = KindleMockUpTests;
+			productReference = CF0F068221159368005FD776 /* KindleMockUpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF0F068C21159368005FD776 /* KindleMockUpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF0F069C21159368005FD776 /* Build configuration list for PBXNativeTarget "KindleMockUpUITests" */;
+			buildPhases = (
+				CF0F068921159368005FD776 /* Sources */,
+				CF0F068A21159368005FD776 /* Frameworks */,
+				CF0F068B21159368005FD776 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF0F068F21159368005FD776 /* PBXTargetDependency */,
+			);
+			name = KindleMockUpUITests;
+			productName = KindleMockUpUITests;
+			productReference = CF0F068D21159368005FD776 /* KindleMockUpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF0F066621159365005FD776 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Amir Nickroo";
+				TargetAttributes = {
+					CF0F066D21159365005FD776 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					CF0F068121159368005FD776 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = CF0F066D21159365005FD776;
+					};
+					CF0F068C21159368005FD776 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = CF0F066D21159365005FD776;
+					};
+				};
+			};
+			buildConfigurationList = CF0F066921159365005FD776 /* Build configuration list for PBXProject "KindleMockUp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF0F066521159365005FD776;
+			productRefGroup = CF0F066F21159365005FD776 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF0F066D21159365005FD776 /* KindleMockUp */,
+				CF0F068121159368005FD776 /* KindleMockUpTests */,
+				CF0F068C21159368005FD776 /* KindleMockUpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF0F066C21159365005FD776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF0F067C21159367005FD776 /* LaunchScreen.storyboard in Resources */,
+				CF0F067921159367005FD776 /* Assets.xcassets in Resources */,
+				CF0F067721159366005FD776 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF0F068021159368005FD776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF0F068B21159368005FD776 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF0F066A21159365005FD776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF0F067421159365005FD776 /* ViewController.swift in Sources */,
+				CF0F067221159365005FD776 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF0F067E21159368005FD776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF0F068721159368005FD776 /* KindleMockUpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF0F068921159368005FD776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF0F069221159368005FD776 /* KindleMockUpUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF0F068421159368005FD776 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF0F066D21159365005FD776 /* KindleMockUp */;
+			targetProxy = CF0F068321159368005FD776 /* PBXContainerItemProxy */;
+		};
+		CF0F068F21159368005FD776 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF0F066D21159365005FD776 /* KindleMockUp */;
+			targetProxy = CF0F068E21159368005FD776 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF0F067521159366005FD776 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF0F067621159366005FD776 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF0F067A21159367005FD776 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF0F067B21159367005FD776 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF0F069421159368005FD776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF0F069521159368005FD776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF0F069721159368005FD776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8RR9QQNAUZ;
+				INFOPLIST_FILE = KindleMockUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amiracle.KindleMockUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF0F069821159368005FD776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8RR9QQNAUZ;
+				INFOPLIST_FILE = KindleMockUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amiracle.KindleMockUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF0F069A21159368005FD776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8RR9QQNAUZ;
+				INFOPLIST_FILE = KindleMockUpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amiracle.KindleMockUpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KindleMockUp.app/KindleMockUp";
+			};
+			name = Debug;
+		};
+		CF0F069B21159368005FD776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8RR9QQNAUZ;
+				INFOPLIST_FILE = KindleMockUpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amiracle.KindleMockUpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KindleMockUp.app/KindleMockUp";
+			};
+			name = Release;
+		};
+		CF0F069D21159368005FD776 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8RR9QQNAUZ;
+				INFOPLIST_FILE = KindleMockUpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amiracle.KindleMockUpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KindleMockUp;
+			};
+			name = Debug;
+		};
+		CF0F069E21159368005FD776 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8RR9QQNAUZ;
+				INFOPLIST_FILE = KindleMockUpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amiracle.KindleMockUpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KindleMockUp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF0F066921159365005FD776 /* Build configuration list for PBXProject "KindleMockUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF0F069421159368005FD776 /* Debug */,
+				CF0F069521159368005FD776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF0F069621159368005FD776 /* Build configuration list for PBXNativeTarget "KindleMockUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF0F069721159368005FD776 /* Debug */,
+				CF0F069821159368005FD776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF0F069921159368005FD776 /* Build configuration list for PBXNativeTarget "KindleMockUpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF0F069A21159368005FD776 /* Debug */,
+				CF0F069B21159368005FD776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF0F069C21159368005FD776 /* Build configuration list for PBXNativeTarget "KindleMockUpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF0F069D21159368005FD776 /* Debug */,
+				CF0F069E21159368005FD776 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF0F066621159365005FD776 /* Project object */;
+}
