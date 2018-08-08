@@ -6,17 +6,19 @@
 //  Copyright © 2018 Amir Nickroo. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 class Book {
     let title : String
     let author: String
+    let image: UIImage
     let pages: [Page]
     
-    init(title: String, author: String, pages: [Page]) {
+    init(title: String, author: String, pages: [Page], image: UIImage) {
         self.author = author
         self.title = title
         self.pages = pages
+        self.image = image
     }
 }
 
