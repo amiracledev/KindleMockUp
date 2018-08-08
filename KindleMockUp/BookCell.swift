@@ -9,22 +9,28 @@
 import UIKit
 
 class Bookcell: UITableViewCell {
-    
-    let coverImageView: UIImageView = {
+    var book: Book? {
+        didSet {
+            coverImageView.image = book?.image
+            titleLabel.text = book?.title
+            authorLabel.text = book?.author
+        }
+    }
+    private let coverImageView: UIImageView = {
         let imageView = UIImageView()
         imageView.image = #imageLiteral(resourceName: "steve")
         imageView.translatesAutoresizingMaskIntoConstraints = false
         return imageView
     }()
     
-    let titleLabel: UILabel = {
+   private let titleLabel: UILabel = {
         let label = UILabel()
         label.text = "This is our title label"
         label.translatesAutoresizingMaskIntoConstraints = false
 
         return label
     }()
-    let authorLabel: UILabel = {
+     private let authorLabel: UILabel = {
         let label = UILabel()
         label.text = "Thi is some author for the book that we have in some row"
         label.translatesAutoresizingMaskIntoConstraints = false
@@ -37,7 +43,6 @@ class Bookcell: UITableViewCell {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
 
         print("cell is being initialized!")
-        backgroundColor = .yellow
         addSubview(coverImageView)
         coverImageView.leftAnchor.constraint(equalTo: self.leftAnchor, constant: 8).isActive = true
         coverImageView.topAnchor.constraint(equalTo: self.topAnchor, constant: 8).isActive = true
