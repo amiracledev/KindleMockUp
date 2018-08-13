@@ -57,6 +57,12 @@ class ViewController: UITableViewController {
             }
         }
     }
-    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print(123)
+        let layOut = UICollectionViewLayout()
+        let bookPagerController = BookPagerController(collectionViewLayout: layOut)
+        let nabvController = UINavigationController(rootViewController: bookPagerController)
+        present(nabvController, animated: true, completion: nil)
+    }
 }
 

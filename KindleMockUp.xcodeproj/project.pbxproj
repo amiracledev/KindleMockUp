@@ -13,6 +13,7 @@
 		CF0F067C21159367005FD776 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF0F067A21159367005FD776 /* LaunchScreen.storyboard */; };
 		CF0F068721159368005FD776 /* KindleMockUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F068621159368005FD776 /* KindleMockUpTests.swift */; };
 		CF0F069221159368005FD776 /* KindleMockUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0F069121159368005FD776 /* KindleMockUpUITests.swift */; };
+		CF6A0464211CE46C00E1F9F0 /* BookPagerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF6A0463211CE46C00E1F9F0 /* BookPagerController.swift */; };
 		CFFB0B2D21163A190038B165 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFB0B2C21163A190038B165 /* Models.swift */; };
 		CFFB0B2F211B659C0038B165 /* BookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFB0B2E211B659C0038B165 /* BookCell.swift */; };
 /* End PBXBuildFile section */
@@ -47,6 +48,7 @@
 		CF0F068D21159368005FD776 /* KindleMockUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KindleMockUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF0F069121159368005FD776 /* KindleMockUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KindleMockUpUITests.swift; sourceTree = "<group>"; };
 		CF0F069321159368005FD776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF6A0463211CE46C00E1F9F0 /* BookPagerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookPagerController.swift; sourceTree = "<group>"; };
 		CFFB0B2C21163A190038B165 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		CFFB0B2E211B659C0038B165 /* BookCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -106,6 +108,7 @@
 				CF0F067D21159367005FD776 /* Info.plist */,
 				CFFB0B2C21163A190038B165 /* Models.swift */,
 				CFFB0B2E211B659C0038B165 /* BookCell.swift */,
+				CF6A0463211CE46C00E1F9F0 /* BookPagerController.swift */,
 			);
 			path = KindleMockUp;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFFB0B2F211B659C0038B165 /* BookCell.swift in Sources */,
+				CF6A0464211CE46C00E1F9F0 /* BookPagerController.swift in Sources */,
 				CFFB0B2D21163A190038B165 /* Models.swift in Sources */,
 				CF0F067421159365005FD776 /* ViewController.swift in Sources */,
 				CF0F067221159365005FD776 /* AppDelegate.swift in Sources */,
